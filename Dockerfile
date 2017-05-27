@@ -24,7 +24,7 @@ FROM lccitools/base:latest
 LABEL Maintainer  Stefan Wallentowitz <stefan@wallentowitz.de>
 LABEL Description "Verilator"
 
-ARG VERSION=3.900
+ARG VERSION=3.886
 ARG JOBS=-j8
 
 RUN git clone http://git.veripool.org/git/verilator
